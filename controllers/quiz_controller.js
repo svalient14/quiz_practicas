@@ -13,3 +13,12 @@ exports.check = function(req,res,next){
 	res.render('quizzes/result', {result: result,
 				      answer: answer});
 };
+
+//GET /author
+ 
+//nada¿?
+
+exports.author = function (req,res,next){
+	res.render('quizzes/author',{author: 'Sara Valiente Merino'});
+
+};

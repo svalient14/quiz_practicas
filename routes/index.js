@@ -16,3 +16,6 @@ router.get('/question',quizController.question);
 
 /* GET check. */
 router.get('/check',quizController.check);
+
+/* GET autores. */
+router.get('/author',quizController.author);
